@@ -8,6 +8,6 @@ COPY start.sh start.sh
 RUN dpkg -i unify_1.4.0/uic-dev-gui_1.4.0_arm64.deb 
 
 EXPOSE 3080 3080
-EXPOSE 1337:1337
+EXPOSE 1337 1337
 
 CMD ["./start.sh"]
